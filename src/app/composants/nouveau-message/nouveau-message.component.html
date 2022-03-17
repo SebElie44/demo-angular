@@ -1,0 +1,16 @@
+<h3 xmlns="http://www.w3.org/1999/html">nouveau message</h3>
+
+<form #monFormulaire = "ngForm" (ngSubmit)="submitForm(monFormulaire.value)">
+<p>De : </p>
+  <label>
+<input type="text" name="pseudo" ngModel>
+  </label>
+<p>Message</p>
+  <label>
+<textarea name="message" ngModel></textarea>
+  </label>
+    <div >
+<button>Envoyer</button>
+  <button>Annuler</button>
+</div>
+</form>

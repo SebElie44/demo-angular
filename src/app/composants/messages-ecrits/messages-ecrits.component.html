@@ -1,0 +1,11 @@
+<h3 >messages</h3>
+
+<div *ngFor="let p of leTabDuService">
+  <fieldset>
+    <legend><a href="#">{{p.nom + " le " +  p.date | date: 'medium'}}</a>
+    </legend>
+    <p>
+      {{p.message}}
+    </p>
+  </fieldset>
+</div>

@@ -1,0 +1,9 @@
+.message_description{
+  width: 200px;
+  height: 100px;
+}
+.submit{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
